@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title> Survey </title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body> 
+    <div id="wrapper">
+    <h1> Are you qualified?</h1>
+    <p> Most would think so, but they're wrong. </p><br/>
+    <div> 
+        <form >
+            <!-- <h2>What do you do if...</h2> -->
+            <h3>1. What do you do if you are wrong?</h3>
+            <label><input type="radio" name="q1" value="a1">Take responsibiliy</label><br/>
+           <label><input type="radio" name="q1" value="a2">Blame others </label><br/>
+           <label><input type="radio" name="q1" value="a3">Nothing</label>
+            
+
+            <h3>2. What do you do if you have a problem?</h3>
+
+            <label><input type="radio" name="q2" value="a1">Ask for help</label><br>
+            <label><input type="radio" name="q2" value="a2">Make the problem worse</label><br>
+            <label><input type="radio" name="q2" value="a3">Do nothing</label>
+
+            <h3>3. What do you do if someone upsets you?</h3>
+            <label><input type="radio" name="q3" value="a1">Talk to them about how they made you feel</label><br/>
+            <label><input type="radio" name="q3" value="a2">Lash out</label><br>
+            <label><input type="radio" name="q3" value="a3">Sulk/give them the cold shoulder</label><br>
+
+            <h2>Final question:</h2>
+            <h3> Do you have a skincare routine? Soap does not count.</h3>
+            <label><input type="radio" name="q4" value="a1">Yes</label><br>
+            <label><input type="radio" name="q4" value="a2">No </label><br>
+            <label><input type="radio" name="q4" value="a3">What's a skin routine</label><br>
+            <br>
+
+            <button type="button" id="submit" onclick="answers()"> Submit </button><br/>
+
+            <button type="button" id="reset" onclick="resetAnswers()">Reset</button>
+            <p id="answer">  </p>
+            <!-- <div id="answer"> d</div> -->
+    </form>
+    </div>
+  
+    </div>
+    <script src="answers.js"></script>
+    
+    
+</body>
+</html>
