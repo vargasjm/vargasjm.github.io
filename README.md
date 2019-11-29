@@ -14,4 +14,5 @@ just junk i made while learning stuff on my own
           different answers. Basic format of a survey. First example using JavaScript. I spent a long time trying to figure
           out why the JS wasn't working until I remembered that HTML wasn't case-sensitive while JS is. It was really just a 
           few tiny things. ID versus Id sucks. Might add selected answers to be like picture cards, like Buzzfeed style. Also 
-          have to find out how to link different HTML files together on github, maybe a menu?
+          have to find out how to link different HTML files together on github, maybe a menu? Also, start looking into 
+          different formatting on different devices as well as that whole CSS floatbox thing. 
