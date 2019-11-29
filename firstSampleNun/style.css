@@ -1,0 +1,86 @@
+p{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:20px;
+	color: green;
+	margin:20px;
+	padding:0;
+}
+
+a{
+	color:blue;
+}
+
+h1{	
+	text-align:center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	display:inline;
+	color:red;
+	background-color:black;
+	border-radius:10px;
+	
+}
+li{
+	display:block;
+	color:black;
+	font-style:italic;
+	margin:20px;
+	
+}
+
+#emperor{
+	background-color:yellow;
+}
+h2{
+	text-align:center;
+	color:orange;
+}
+h3{
+	text-align:center;
+	color:yellow;
+	background-color:black;
+	border-style:dotted;
+	border-width:3px;
+	border-color:red;
+	margin:60px;
+	padding:20px;
+}
+
+.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+}
+
+.bgimg{
+	background-color:white
+	background-image: url("images/nun_gun.jpg");
+	
+}
+
+.test{
+	background-image: url("images/nun_gun.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+body{
+	
+	font-size: 20px;	
+	color: navy;
+	font-family:"Courier New", Arial, monospace;
+}
+
+h4, h5, h6{
+	text-align:center;
+}
+
+#forms{
+	background-color:#25b092;
+	margin:60px;
+	padding:20px;
+	
+}
+
+#forms p{
+	color:blue;
+}
